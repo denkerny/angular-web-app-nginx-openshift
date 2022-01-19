@@ -9,7 +9,7 @@ metadata:
     description: Just building a little angular app with a Node builder
 labels:
   application: modern-web-app
-parameters:
+parameters: #1
   - name: SOURCE_REPOSITORY_URL
     description: The source URL for the application
     displayName: Source URL
