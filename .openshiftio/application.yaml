@@ -96,7 +96,8 @@ objects:
       type: Source
     triggers: #4
     - github:
-        secret: ${GITHUB_WEBHOOK_SECRET}
+        secretReference:
+        name: "mysecret"
       type: GitHub
     - type: ConfigChange
     - imageChange: {}
