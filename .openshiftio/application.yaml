@@ -179,7 +179,7 @@ objects:
             protocol: TCP
       metadata:
         labels:
-          app: angular-web-app
+          app: angular-web-app-3
     triggers:
       - type: ConfigChange
       - type: ImageChange
