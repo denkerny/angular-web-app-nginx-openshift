@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
+## Running on Openshift
+
+`find . | grep openshiftio | grep application | xargs -n 1 oc apply -f`
+
+> overly engineered way of finding the ./openshiftio/application.yaml template
+
+` oc new-app --template angular-web-app-3 -p OUTPUT_DIR=dist/angular-web-app-3`
+
+> creates a new application based on that template
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
