@@ -13,6 +13,7 @@ parameters:
   - name: SOURCE_REPOSITORY_URL
     description: The source URL for the application
     displayName: Source URL
+    value: "https://github.com/kernyden/angular-web-app-nginx-openshift"
     required: true
   - name: SOURCE_REPOSITORY_REF
     description: The branch name for the application
@@ -140,7 +141,7 @@ objects:
       imageChange:
         from:
           kind: ImageStreamTag
-          name: angular-web-app-builder:latest
+          name: angular-web-app-builder:latest #7
   status:
     lastVersion: 0
 - apiVersion: v1
