@@ -13,7 +13,7 @@ parameters: #1
   - name: SOURCE_REPOSITORY_URL
     description: The source URL for the application 1
     displayName: Source URL
-    value: "https://github.com/kernyden/angular-web-app-nginx-openshift"
+    value: "https://github.com/kernyden/angular-web-app-nginx-openshift1"
     required: true
   - name: SOURCE_REPOSITORY_REF
     description: The branch name for the application
