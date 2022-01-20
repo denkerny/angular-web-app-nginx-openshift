@@ -11,7 +11,7 @@ labels:
   application: modern-web-app
 parameters: #1
   - name: SOURCE_REPOSITORY_URL
-    description: The source URL for the application
+    description: The source URL for the application 1
     displayName: Source URL
     value: "https://github.com/kernyden/angular-web-app-nginx-openshift"
     required: true
