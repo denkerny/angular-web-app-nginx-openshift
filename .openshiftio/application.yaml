@@ -97,7 +97,7 @@ objects:
     triggers: #4
     - github:
         secretReference:
-          name: "mysecret"
+          name: "2Xfj0cwFg1AcKttsX5T7F2DfNtiHgxYRwTUmcPJk"
       type: GitHub
     - type: ConfigChange
     - imageChange: {}
